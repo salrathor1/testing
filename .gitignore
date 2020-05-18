@@ -6,4 +6,4 @@
 *rar
 *.vscode/
 node_modules
-pckage-lock.json
+package-lock.json
