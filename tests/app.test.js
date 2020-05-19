@@ -1,5 +1,8 @@
 const app = require("../modules/app");
 
+test ("should return a true value for coder when checked", () => {
+    expect(app.coder).toBeTruthy();
+})
 
 test("must return 0.3 when 0.2 and 0.1 are passed", ()=> {
     expect(app.add(0.2,0.1)).toBeCloseTo(0.3);
